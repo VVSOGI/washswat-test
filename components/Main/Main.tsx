@@ -23,13 +23,13 @@ const MainSection: React.FC<MainProps> = (props) => {
   }, []);
   if (props.currentRequest === undefined) {
     return (
-      <View>
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
         <Text>Loading</Text>
       </View>
     );
   }
   return (
-    <ScrollView>
+    <ScrollView style={{ backgroundColor: "#FFF" }}>
       <Header headText="재수거 예정 세탁물" />
       {props.currentRequest.mission.itemList.map((item: any, index: number) => {
         return (
