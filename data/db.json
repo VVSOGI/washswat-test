@@ -1,0 +1,68 @@
+{
+  "request": [
+    {
+      "taskId": 102,
+      "information": {
+        "time": {
+          "pickup": "2021-11-10 00:00:000",
+          "delivery": "2021-11-12 07:00:000"
+        },
+        "address_01": "서울시 서초구 서초대로77길 55 에이프로스퀘어",
+        "address_02": "8-102 812호",
+        "location": "문 앞"
+      },
+      "mission": {
+        "itemList": [
+          {
+            "name": "트렌치코트",
+            "userMessage": "얼룩이 안지워졌어요",
+            "tagList": ["재세탁"],
+            "representativeItemImage": "https://s3.ap-northeast-2.amazonaws.com/com.washswat.assets/dev/IMG_0376+1.png",
+            "imageList": [
+              {
+                "imageId": "115ab79201d5c90ff2c18ebc",
+                "imageURL": "https://s3.ap-northeast-2.amazonaws.com/com.washswat.assets/dev/Rectangle+470.png"
+              },
+              {
+                "imageId": "215ab79201d5c90ff2c18ebc",
+                "imageURL": "https://s3.ap-northeast-2.amazonaws.com/com.washswat.assets/dev/Rectangle+470.png"
+              },
+              {
+                "imageId": "315ab79201d5c90ff2c18ebc",
+                "imageURL": "https://s3.ap-northeast-2.amazonaws.com/com.washswat.assets/dev/Rectangle+470.png"
+              },
+              {
+                "imageId": "415ab79201d5c90ff2c18ebc",
+                "imageURL": "https://s3.ap-northeast-2.amazonaws.com/com.washswat.assets/dev/Rectangle+470.png"
+              }
+            ]
+          },
+          {
+            "name": "스커",
+            "userMessage": "보풀제거가 안됐어요",
+            "tagList": ["다림질", "보품"],
+            "representativeItemImage": "https://s3.ap-northeast-2.amazonaws.com/com.washswat.assets/dev/IMG_0376+1.png",
+            "imageList": [
+              {
+                "imageId": "515ab79201d5c90ff2c18ebc",
+                "imageURL": "https://s3.ap-northeast-2.amazonaws.com/com.washswat.assets/dev/Rectangle+470.png"
+              },
+              {
+                "imageId": "615ab79201d5c90ff2c18ebc",
+                "imageURL": "https://s3.ap-northeast-2.amazonaws.com/com.washswat.assets/dev/Rectangle+470.png"
+              },
+              {
+                "imageId": "715ab79201d5c90ff2c18ebc",
+                "imageURL": "https://s3.ap-northeast-2.amazonaws.com/com.washswat.assets/dev/Rectangle+470.png"
+              },
+              {
+                "imageId": "815ab79201d5c90ff2c18ebc",
+                "imageURL": "https://s3.ap-northeast-2.amazonaws.com/com.washswat.assets/dev/Rectangle+470.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
